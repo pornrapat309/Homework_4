@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 4px;
+    margin-right: 300px;
+}
+
+nav a:hover {
+    color: black;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://picsum.photos/id/114/1024/800");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.content .headline1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 3rem;
+    color: white;
+} 
+
+.content .headline2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 3rem;
+    color: white;
+}  
+.content h5 {
+    margin-bottom: 10px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.inbar1 {
+  width: 320px;
+  height: 10px;
+  background-color: gainsboro;
+}
+
+.inbar2 {
+  width: 280px;
+  height: 10px;
+  background-color: rgb(205, 245, 236);
+}
+
+.persent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.persent p {
+  margin-top: 0;
+}
+
+.buttonClass {
+    margin-top: 40px;
+    font-size:12px;
+    font-family:'Quicksand', sans-serif;
+    width:110px;
+    height:25px;
+    border-width:1px;
+    color:#363232;
+    border-color:#337bc4;
+    background:linear-gradient(#9acafa, #8bc4fc);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#378de5, #9bccfc);
+}
+
+.logo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+}
+
+.logo a {
+  display: block;
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+}
+
+.logo img {
+  width: 100%;
+  border: solid;
+  border-radius: 50% 50% 50% 50%;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  border-top: 1.5px solid rgb(94, 94, 94);
+  font-size: 0.8rem;
+  color: white;
+}
+
+ 
+            
